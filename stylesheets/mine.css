@@ -59,7 +59,7 @@
 
   }
   #main_title{
-  	font-size:80px;
+  	font-size:30px;
   	
   }  
 }
@@ -68,6 +68,10 @@
    #page-top1{
    
    }
+    #main_title{
+  	font-size:80px;
+  	
+  }  
 }
 @media only screen and (min-width: 1382px) {
   /* 1382px 이상 */
