@@ -29,7 +29,7 @@
 }
 
 #main_page_image_background{
-	background-image: url("../image/main_background.png");
+	background-image: url("../image/main_background.png") no-repeat center top;;
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top:0px;
