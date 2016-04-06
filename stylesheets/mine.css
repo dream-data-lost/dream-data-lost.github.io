@@ -99,6 +99,8 @@ body{
 
 #main_title{
 	font-family: 'Jeju Gothic';
+	text-shadow: 2px 2px #ff0000;
+	color:#030025;
 }
 
 .card-back{
