@@ -2,13 +2,13 @@
 @media only screen and (min-width: 480px) {
   /* 480px 이상 */
   #main_page_image_background{
-  	width:40%;
+  	width:20%;
   }
 }
 @media only screen and (min-width: 600px) {
   /* 600px 이상 */
  #main_page_image_background{
-  	width:50%;
+  	width:30%;
   }
 	
 }
