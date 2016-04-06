@@ -5,6 +5,6 @@ background: -moz-linear-gradient(top,  #aa9df6 0%, #97c3e5 50%, #ffffff 100%); /
 background: -webkit-linear-gradient(top,  #aa9df6 0%,#97c3e5 50%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #aa9df6 0%,#97c3e5 50%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa9df6', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
-
+background repeat: no-repeat;
 
 }
