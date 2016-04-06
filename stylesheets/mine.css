@@ -13,7 +13,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa9df6', end
 
 body {
     background-image: url("../image/main_background.png");
-    background-color: #cccccc;
+    
+    background: rgb(170,157,246) !important; /* Old browsers */
+background: -moz-linear-gradient(top,  rgb(170,157,246) 0%, rgb(151,195,229) 50%, rgb(255,255,255) 100%) !important; /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgb(170,157,246) 0%,rgb(151,195,229) 50%,rgb(255,255,255) 100%) !important; /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgb(170,157,246) 0%,rgb(151,195,229) 50%,rgb(255,255,255) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa9df6', endColorstr='#ffffff',GradientType=0 ) !important; /* IE6-9 */
 }
 
 
