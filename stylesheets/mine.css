@@ -38,7 +38,7 @@
   }
   
   #main_title{
-  	font-size:45pt;
+  	font-size:60pt;
   	
   }
 }
@@ -83,7 +83,9 @@
 
 #main_title{
 	font-family: 'Hanna';
-	
+	font-smooth: auto;
+	font-smooth: always;
+	font-smooth: 2em;
 }
 
 .card-back{
