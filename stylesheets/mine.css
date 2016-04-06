@@ -1,15 +1,19 @@
-body{
+#page-top1{
     margin-left: 0px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
-   background-image: url("../image/main_background.png");
+    
+   	background-image: url("../image/main_background.png");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	position: relative; 
+	
    background-color:#b3d2ff;
 }
+
+
 
 /* 모바일 (가로 480px 미만) 용 스타일 */
 @media only screen and (min-width: 480px) {
