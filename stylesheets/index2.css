@@ -1,3 +1,8 @@
+body{
+  width:100%;
+  height:100%;
+}
+
 .body_background{
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aa9df6+0,97c3e5+50,ffffff+100 */
 background: #aa9df6; /* Old browsers */
