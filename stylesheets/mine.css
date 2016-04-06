@@ -9,6 +9,15 @@
        url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.ttf) format('truetype');
 }
 
+body{
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    background: url('./images/background.png');
+    text-align: left;
+    margin: auto;
+    
+
+}
 
 
 
