@@ -1,5 +1,5 @@
-body{
-background-color:red !important;
+.page-top{
+
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aa9df6+0,97c3e5+50,ffffff+100 */
 background: rgb(170,157,246) !important; /* Old browsers */
 background: -moz-linear-gradient(top,  rgb(170,157,246) 0%, rgb(151,195,229) 50%, rgb(255,255,255) 100%) !important; /* FF3.6-15 */
