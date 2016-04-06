@@ -28,8 +28,7 @@ body{
 @media only screen and (min-width: 992px) {
   /* 992px 이상 */
    #main_page_image_background{
-   	top:20px;
-   	
+   
    }
 }
 @media only screen and (min-width: 1382px) {
