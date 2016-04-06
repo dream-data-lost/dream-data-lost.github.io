@@ -12,7 +12,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa9df6', end
 
 
 body {
-    background-image: url("//image/main_background.png");
+    background-image: url("../image/main_background.png");
     background-color: #cccccc;
 }
 
