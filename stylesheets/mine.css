@@ -18,26 +18,26 @@
 /* 모바일 (가로 480px 미만) 용 스타일 */
 @media only screen and (min-width: 480px) {
   /* 480px 이상 */
-  #main_page_image_background{
+  #page-top1{
   	width:20%;
   }
 }
 @media only screen and (min-width: 600px) {
   /* 600px 이상 */
- #main_page_image_background{
+ #page-top1{
   	width:20%;
   }
 	
 }
 @media only screen and (min-width: 768px) {
   /* 768px 이상 */
-   #main_page_image_background{
+   #page-top1{
   	width:30%;
   }
 }
 @media only screen and (min-width: 992px) {
   /* 992px 이상 */
-   #main_page_image_background{
+   #page-top1{
    
    }
 }
@@ -46,14 +46,6 @@
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* iPhone4+ 레티나 디스플레이 */
-}
-
-#main_page_image_background{
-	
-	z-index: 2;
-	width:100%;
-	padding:0px;
-
 }
 
 
