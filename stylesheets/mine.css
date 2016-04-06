@@ -49,21 +49,9 @@ body{
 	z-index: 2;
 	width:100%;
 	padding:0px;
-	height:100%;
+
 }
 
-
-#main_page_background{
-	position: relative; 
-	z-index: 1;
-padding-bottom: 30%;	
-
-background: rgb(170,157,246)  /* Old browsers */
-background: -moz-linear-gradient(top,  rgb(170,157,246) 0%, rgb(151,195,229) 50%, rgb(255,255,255) 100%)  /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgb(170,157,246) 0%,rgb(151,195,229) 50%,rgb(255,255,255) 100%)  /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgb(170,157,246) 0%,rgb(151,195,229) 50%,rgb(255,255,255) 100%)  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa9df6', endColorstr='#ffffff',GradientType=0 ) /* IE6-9 */
-}
 
 
 
