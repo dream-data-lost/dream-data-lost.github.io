@@ -69,6 +69,7 @@ body{
   }
   #main_title{
   	font-size:50pt;
+  	padding-top:30px;
   	
   }  
 }
@@ -79,6 +80,7 @@ body{
    }
     #main_title{
   	font-size:50pt;
+  	padding-top:70px;
   	
   }  
 }
