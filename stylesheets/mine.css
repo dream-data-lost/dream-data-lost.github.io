@@ -1,0 +1,56 @@
+.card-back{
+	margin: .3%;
+}
+
+.card{
+	position: relative;
+	float: left;
+	padding-bottom: 35%;
+	width: 25%;
+	text-align: center;
+}
+
+.card_front, 
+.card_back{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.card_front, 
+.card_back{
+	-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s;
+			transition: transform 0.3s;
+}
+
+.card_front{
+	background-size: contain;
+	background-image: url("card_back.png");
+	background-repeat: no-repeat;
+	
+}
+
+.card_back{
+	background-size: contain;
+	background-image: url("card_front.png");
+	background-repeat: no-repeat;
+	-webkit-transform: rotateY(-180deg);
+			transform: rotateY(-180deg);
+}
+
+.card.effect_click.flipped .card_front{
+	-webkit-transform: rotateY(-180deg);
+			transform: rotateY(-180deg);
+}
+
+.card.effect_click.flipped .card_back{
+	-webkit-transform: rotateY(0);
+			transform: rotateY(0);
+}
+
+h2{
+	margin-top: 10%;
+}
