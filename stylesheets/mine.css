@@ -1,9 +1,11 @@
+#main_page_image_background{
+	background-image: url("../image/main_background.png");
+}
 
 
 #main_page_background{
 padding-bottom: 30%;	
-background-image: url("../image/main_background.png");
-    
+
 background: rgb(170,157,246) !important; /* Old browsers */
 background: -moz-linear-gradient(top,  rgb(170,157,246) 0%, rgb(151,195,229) 50%, rgb(255,255,255) 100%) !important; /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  rgb(170,157,246) 0%,rgb(151,195,229) 50%,rgb(255,255,255) 100%) !important; /* Chrome10-25,Safari5.1-6 */
