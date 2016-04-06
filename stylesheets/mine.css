@@ -1,7 +1,7 @@
 #main_page_image_background{
 	background-image: url("../image/main_background.png");
 	margin-top:0px;
-	top:-50px;
+	top:-30px;
 	position: relative; 
 	z-index: 2;
 }
