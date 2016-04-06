@@ -47,7 +47,7 @@ body{
   }
   
   #main_title{
-  	font-size:50pt;
+  	font-size:30pt;
   	
   }
 }
@@ -57,7 +57,7 @@ body{
 
   }
   #main_title{
-  	font-size:50pt;
+  	font-size:40pt;
   	
   }  
 	
@@ -80,12 +80,17 @@ body{
    }
     #main_title{
   	font-size:50pt;
-  	padding-top:70px;
+  	padding-top:40px;
   	
   }  
 }
 @media only screen and (min-width: 1382px) {
   /* 1382px 이상 */
+   #main_title{
+  	font-size:70pt;
+  	padding-top:60px;
+  	
+  }  
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
   /* iPhone4+ 레티나 디스플레이 */
