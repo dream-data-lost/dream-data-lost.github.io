@@ -47,7 +47,7 @@ body{
   }
   
   #main_title{
-  	font-size:60pt;
+  	font-size:80pt;
   	
   }
 }
@@ -57,7 +57,7 @@ body{
 
   }
   #main_title{
-  	font-size:60pt;
+  	font-size:50pt;
   	
   }  
 	
@@ -68,7 +68,7 @@ body{
 
   }
   #main_title{
-  	font-size:70pt;
+  	font-size:50pt;
   	
   }  
 }
@@ -78,7 +78,7 @@ body{
    
    }
     #main_title{
-  	font-size:70pt;
+  	font-size:50pt;
   	
   }  
 }
@@ -92,9 +92,6 @@ body{
 
 #main_title{
 	font-family: 'Jeju Gothic';
-	font-smooth: auto;
-	font-smooth: always;
-	font-smooth: 2em;
 }
 
 .card-back{
