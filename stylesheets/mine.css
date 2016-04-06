@@ -9,6 +9,10 @@
        url(//fonts.gstatic.com/ea/hanna/v3/BM-HANNA.ttf) format('truetype');
 }
 
+
+
+
+
 #page-top1{
     margin-left: 0px;
     margin-top: 0px;
@@ -32,12 +36,21 @@
   #page-top1{
  
   }
+  
+  #main_title{
+  	font-size:30px;
+  	
+  }
 }
 @media only screen and (min-width: 600px) {
   /* 600px 이상 */
  #page-top1{
 
   }
+  #main_title{
+  	font-size:30px;
+  	
+  }  
 	
 }
 @media only screen and (min-width: 768px) {
@@ -45,6 +58,10 @@
    #page-top1{
 
   }
+  #main_title{
+  	font-size:80px;
+  	
+  }  
 }
 @media only screen and (min-width: 992px) {
   /* 992px 이상 */
