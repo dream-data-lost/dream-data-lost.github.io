@@ -1,9 +1,14 @@
 #main_page_image_background{
 	background-image: url("../image/main_background.png");
+	margin-top:0px;
+	position: relative; 
+	z-index: 2;
 }
 
 
 #main_page_background{
+	position: relative; 
+	z-index: 1;
 padding-bottom: 30%;	
 
 background: rgb(170,157,246) !important; /* Old browsers */
