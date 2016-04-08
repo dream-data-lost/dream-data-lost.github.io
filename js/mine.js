@@ -7,7 +7,7 @@ var day = dt.getDate();			//일
 var year = dt.getFullYear();	//년
 var weekday = dt.getDay();		//요일
 
-document.getElementById("day").innerHTML = year + '년 ' + month + '월 ' + day + '일' + weekday;
+document.getElementById("day").innerHTML = year + '년 ' + month + '월 ' + day + '일';
 
 //요일 사진 자동 지정
 var weekdayimg = document.querySelectorAll(".weekday");
