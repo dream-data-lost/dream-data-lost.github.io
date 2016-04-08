@@ -14,24 +14,31 @@ var weekdayimg = document.querySelectorAll(".weekday");
 
 if(weekday==0){
 	weekdayimg[0].style.backgroundImage = "url(sunday.png)";
+	weekdayimg[1].style.backgroundImage = "url(sunday.png)";
 }
 else if(weekday==1){
 	weekdayimg[0].style.backgroundImage = "url(monday.png)";
+	weekdayimg[1].style.backgroundImage = "url(monday.png)";
 }
 else if(weekday==2){
 	weekdayimg[0].style.backgroundImage = "url(tuesday.png)";
+	weekdayimg[1].style.backgroundImage = "url(tuesday.png)";
 }
 else if(weekday==3){
 	weekdayimg[0].style.backgroundImage = "url(wednesday.png)";
+	weekdayimg[1].style.backgroundImage = "url(wednesday.png)";
 }
 else if(weekday==4){
 	weekdayimg[0].style.backgroundImage = "url(thursday.png)";
+	weekdayimg[1].style.backgroundImage = "url(thursday.png)";
 }
 else if(weekday==5){
 	weekdayimg[0].style.backgroundImage = "url(friday.png)";
+	weekdayimg[1].style.backgroundImage = "url(friday.png)";
 }
 else if(weekday==6){
 	weekdayimg[0].style.backgroundImage = "url(saturday.png)";
+	weekdayimg[1].style.backgroundImage = "url(saturday.png)";
 }
 else weekdayimg[0].style.backgroundImage = "url(card_back.png)";
 
@@ -41,15 +48,19 @@ var season = document.querySelectorAll(".season");
 
 if((month>=3)&&(month<=5)){
 	season[0].style.backgroundImage = "url(spring.png)";
+	season[1].style.backgroundImage = "url(spring.png)";
 }
 else if((month>=6)&&(month<=8)){
 	season[0].style.backgroundImage = "url(summer.png)";
+	season[1].style.backgroundImage = "url(summer.png)";
 }
 else if((month>=9)&&(month<=11)){
 	season[0].style.backgroundImage = "url(fall.png)";
+	season[1].style.backgroundImage = "url(fall.png)";
 }
 else if((month==12)||(month==1)||(month==2)){
 	season[0].style.backgroundImage = "url(winter.png)";
+	season[1].style.backgroundImage = "url(winter.png)";
 }
 else season[0].style.backgroundImage = "url(card_back.png)";
 
@@ -161,3 +172,4 @@ content_result[0].style.backgroundImage = "url(bag.png)";
 
 var temprature = document.querySelectorAll(".temprature");
 temprature[0].style.backgroundImage = "url(good.png)";
+temprature[1].style.backgroundImage = "url(good.png)";
