@@ -141,8 +141,8 @@ body{
 	font-family: 'Nanum Gothic';
   	font-weight: 400;
   	text-shadow: 1px 1px 1px #757575;
-	color:black;
-	line-height:1.3em;
+	color:#000000;
+	line-height:2em;
 }
 
 .card-back{
