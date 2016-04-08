@@ -121,7 +121,7 @@ body{
 
 #start_button{
 	position:relative;
-	width:200px;
+	width:50px;
 	color:#FFF;
 	display:block;
 	text-decoration:none;
@@ -130,7 +130,7 @@ body{
 	border:solid 1px #D94E3B;
 	background:#cb3b27;
 	text-align:center;
-	padding:20px 30px;
+	padding:5px 10px;
 	
 	-webkit-transition: all 0.1s;
 	-moz-transition: all 0.1s;
