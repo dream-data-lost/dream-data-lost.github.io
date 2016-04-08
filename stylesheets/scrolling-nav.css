@@ -21,16 +21,14 @@ html {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out
         
-        background-color: #0a0073 !important;
+       
     }
 
     .top-nav-collapse {
         padding: 0;
     }
 }
-.navbar navbar-default navbar-fixed-top{
-    background-color: #0a0073 !important;
-}
+
 
 #navi1_title{
     color:white !important;
