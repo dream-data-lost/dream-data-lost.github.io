@@ -133,15 +133,15 @@ body{
 
 #main_title{
 	font-family: 'Jeju Gothic';
-	text-shadow: 2px 2px 5px #9f9f9f;
-	color:#323232;
+	text-shadow: 2px 2px 5px #323232;
+	color:#0a0073;
 }
 
 #sub_title{
 	font-family: 'Nanum Gothic';
   	font-weight: 400;
-  	text-shadow: 1px 1px 1px #9f9f9f;
-	color:#323232;
+  	text-shadow: 1px 1px 1px #323232;
+	color:#001152;
 }
 
 .card-back{
