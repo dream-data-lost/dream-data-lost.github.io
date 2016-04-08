@@ -9,7 +9,7 @@
  
  .navbar-default{background-color:#0a0073 !important; border-color:#080150 !important;}
  
- .navbar-default .navbar-brand{color:#ffffff}.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{color:#6987f8;background-color:transparent}.navbar-default .navbar-text{color:#777}  
+ .navbar-default .navbar-brand{color:#ffffff !important;}.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:hover{color:#6987f8 !important; background-color:transparent}.navbar-default .navbar-text{color:#777}  
  
  .navbar-default .navbar-nav>li>a{color:#FFFFFF}
  
