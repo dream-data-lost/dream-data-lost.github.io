@@ -114,8 +114,8 @@ body{
   	
   	}
     #sub_title{	
-    	font-size: 20pt;
-    	padding-top:20px;
+    	font-size: 15pt;
+    	padding-top:5px;
     }
 }
 @media only screen and (min-width: 1382px) {
