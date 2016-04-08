@@ -30,8 +30,8 @@ html {
 }
 
 #navi1_title{
-    color:white;
-    font-family: 'Noto Sans', sans-serif; 
+    color:white !important;
+    font-family: 'Noto Sans', sans-serif !important; 
 }
 
 
