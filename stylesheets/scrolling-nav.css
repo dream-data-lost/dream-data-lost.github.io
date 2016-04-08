@@ -21,7 +21,7 @@ html {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out
         
-        background-color: #0a0073;
+        background-color: #0a0073 !important;
     }
 
     .top-nav-collapse {
