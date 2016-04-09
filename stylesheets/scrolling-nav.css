@@ -110,19 +110,19 @@ of those sections to manage the look and feel of the site. */
 }
 
 
-#go_11_button{
+.go_11_button{
 	top:650px;
-	left:800px;
+	left:700px;
 }
 
-#go_next_button{
+.go_next_button{
 	top:650px;
-	left:800px;
+	left:700px;
 }
 
-#go_choose_button{
+.go_choose_button{
 	top:650px;
-	left:800px;
+	left:700px;
 }
 
 
