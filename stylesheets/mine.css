@@ -198,9 +198,7 @@ body{
 .card{
 	position: relative;
 	float: left;
-	padding-bottom:35%;
-	width: 100% 
-
+	background-size: cover;
 }
 
 .card_front, 
