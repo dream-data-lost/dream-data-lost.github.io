@@ -20,17 +20,19 @@ body{
 }
 
 .intro-section{
+  padding-top: 100px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
 
 .about-section{
-  padding-top: 150px !important;
+  padding-top: 100px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
 
 .services-section{
+  padding-top: 100px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
