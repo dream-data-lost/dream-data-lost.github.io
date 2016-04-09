@@ -33,11 +33,11 @@ body{
 
 .about-section{
   background: url(../image/choose_background.png) no-repeat fixed center center;
-
+  background-size: contain;
 }
 
 .services-section{
   background: url(../image/choose_background.png) no-repeat fixed center center;
- 
+  background-size: contain;
 }
 
