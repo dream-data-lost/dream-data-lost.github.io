@@ -1,6 +1,22 @@
 body{
   background: #edf1ff url(../image/dot_line.png) no-repeat  fixed center center;
  /* overflow:hidden;*/
+    background: hsl(240, 100%, 97%);  
+    display: -webkit-box; /* OLD: Safari, iOS 6 and earlier; Android browser, older WebKit */  
+    display: -moz-box; /* OLD: Firefox (can be buggy) */  
+    display: -ms-flexbox; /* OLD: IE 10 */  
+    display: -webkit-flex; /* FINAL, PREFIXED, Chrome 21+ */  
+    display: flex; /* FINAL: Opera 12.1+, Firefox 22+ */  
+    -webkit-box-align: center;  
+    -moz-box-align: center;  
+    -ms-flex-align: center;  
+    -webkit-align-items: center;  
+    align-items: center;  
+    -webkit-box-pack: center;  
+    -moz-box-pack: center;  
+    -ms-flex-pack: center;  
+    -webkit-justify-content: center;  
+    justify-content: center; 
 }
 
 #day{
@@ -37,28 +53,27 @@ body{
 }
 
 .intro-section{
-	 margin: 0 auto;
   padding-top: 100px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
 
 .about-section{
-	 margin: 0 auto;
+
   padding-top: 100px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
 
 .services-section{
-	 margin: 0 auto;
+
   padding-top: 50px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
 
 .contact-section{
-	 margin: 0 auto;
+
 	padding-top: 100px !important;
 	background: #0a0073 url(../image/choose_background.png)  no-repeat  fixed center center;
   	background-size: contain;
