@@ -28,6 +28,14 @@ body{
 	font-size: 13pt;
 }
 
+#result_title{
+  font-family: 'Jeju Gothic'; 
+  color:#ffffff;
+  text-shadow: 1px 1px 2px #a3a3a3;
+  font-size: 18pt;
+  line-height:1.4em;	
+}
+
 .intro-section{
   padding-top: 100px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
