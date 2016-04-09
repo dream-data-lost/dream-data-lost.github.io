@@ -1,6 +1,6 @@
 body{
   background: #edf1ff url(../image/dot_line.png) no-repeat  fixed center center;
-  overflow:hidden;
+ /* overflow:hidden;*/
 }
 
 #day{
@@ -41,7 +41,7 @@ body{
 }
 
 .services-section{
-  padding-top: 100px !important;
+  padding-top: 50px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
