@@ -111,36 +111,15 @@ of those sections to manage the look and feel of the site. */
 
 
 #go_11_button{
-	position:absolute;
-	 top:90%;
-  
-  	left:90%;
-  -ms-transform: translateX(-50%); /* IE 9 */
-  -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
-  -o-transfrom: translateX(-50%);
-  transform : translateX(-50%);	
+
 }
 
 #go_next_button{
-position:absolute;
-	 top:80%;
-  
-  	left:90%;
-  -ms-transform: translateX(-50%); /* IE 9 */
-  -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
-  -o-transfrom: translateX(-50%);
-  transform : translateX(-50%);		
+	
 }
 
 #go_choose_button{
-position:absolute;
-	 top:70%;
-  
-  	left:90%;
-  -ms-transform: translateX(-50%); /* IE 9 */
-  -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
-  -o-transfrom: translateX(-50%);
-  transform : translateX(-50%);		
+	
 }
 
 
