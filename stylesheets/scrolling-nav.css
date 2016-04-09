@@ -76,7 +76,8 @@ of those sections to manage the look and feel of the site. */
 
 .btn.btn-default.page-scroll.info{
 	position: absolute;
-	left: 10px;
+	left: 100px;
+	top: 100px;
 }
 
 
