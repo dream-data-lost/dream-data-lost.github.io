@@ -75,8 +75,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .btn.btn-default.page-scroll{
-	margin-left: 70%;
-	margin-top: 90%;
+	left: 900px;
+	
 }
 
 #page1{
