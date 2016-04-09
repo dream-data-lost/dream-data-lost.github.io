@@ -74,10 +74,7 @@ of those sections to manage the look and feel of the site. */
     background-repeat: no-repeat;
 }
 
-.btn.btn-default.page-scroll{
-	left: 1000px;
-	
-}
+
 
 #page1{
 	background-image: url("../image/slide1.png");
