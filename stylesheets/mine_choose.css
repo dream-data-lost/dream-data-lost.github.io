@@ -1,7 +1,6 @@
 body{
-
   background: #edf1ff url(../image/dot_line.png);
-  background-repeat : no-repeat; 
+  background-repeat : repeat; 
   background-attachment : fixed; 
   background-position : left center; 
 }
