@@ -39,17 +39,7 @@ body{
    background-color:#b3d2ff;
 }
 
-@media only screen and (min-width: 220px) {
-.card_front, 
-.card_back,
-.situation_result,
-.content_result,
-.weekday,
-.season,
-.temprature{
-	margin:0 auto;
-}
-}
+
 
 /* 모바일 (가로 480px 미만) 용 스타일 */
 @media only screen and (min-width: 480px) {
@@ -62,15 +52,7 @@ body{
   	font-size:30pt;
   	
   }
- .card_front, 
-.card_back,
-.situation_result,
-.content_result,
-.weekday,
-.season,
-.temprature{
-	margin:0 auto;
-}
+
 }
 @media only screen and (min-width: 600px) {
   /* 600px 이상 */
@@ -81,15 +63,7 @@ body{
   	font-size:40pt;
   	
   }  
-.card_front, 
-.card_back,
-.situation_result,
-.content_result,
-.weekday,
-.season,
-.temprature{
-	margin:0 auto;
-}	
+
 }
 @media only screen and (min-width: 768px) {
   /* 768px 이상 */
@@ -106,15 +80,7 @@ body{
     	font-size: 10pt;
       }
 }
-@m.card_front, 
-.card_back,
-.situation_result,
-.content_result,
-.weekday,
-.season,
-.temprature{
-	margin:0 auto;
-}edia only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   /* 992px 이상 */
    #page-top1{
    
@@ -226,13 +192,11 @@ body{
         position:relative;
         top: 5px;
 }
-
 .card{
-	
- -	width: 100% 
 	position: relative;
-	
-	background-size: cover;
+	float: left;
+	padding-bottom: 35%;
+	width: 25%;
 }
 
 .card_front, 
@@ -242,14 +206,13 @@ body{
 .weekday,
 .season,
 .temprature{
-	margin-left: 40px;
-	
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 400px;
+	height: 100%;
 	background-size: contain;
-    	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 .card_front, 
 .card_back{
