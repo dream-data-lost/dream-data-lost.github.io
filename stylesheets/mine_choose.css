@@ -19,6 +19,14 @@ body{
   line-height:1.6em;
 }
 
+.choose_each_sub_title{
+  font-family: 'Noto Sans', sans-serif;
+  color:#353c57;
+  font-size:;
+	line-height:1.6em;
+	margin-bottom: 30px;
+}
+
 .intro-section{
   padding-top: 100px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
