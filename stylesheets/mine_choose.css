@@ -10,6 +10,8 @@ body{
   -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
   -o-transfrom: translateX(-50%);
   transform : translateX(-50%);
+  
+  background-color: red;
     
   background: url(../image/dot_line.png);
   background-repeat : no-repeat; 
