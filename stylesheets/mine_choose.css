@@ -16,7 +16,7 @@ body{
   color:#0a0073;
   text-shadow: 1px 1px 2px #a3a3a3;
   font-size: 18pt;
-  line-height:1.6em;
+  line-height:1.4em;
 }
 
 .choose_each_sub_title{
@@ -46,3 +46,8 @@ body{
   background-size: contain;
 }
 
+.contact-section{
+	padding-top: 100px !important;
+	background: url(../image/result_background.png) no-repeat fixed center center;
+  	background-size: contain;
+}
