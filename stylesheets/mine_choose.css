@@ -26,3 +26,15 @@ body{
 }
 
 
+.intro-section{
+  background: url(../image/choose_background.png) no-repeat fixed center center;
+  
+}
+
+
+.choose_background{
+  background-repeat : no-repeat; 
+  background-attachment : fixed; 
+  background-position : 50% 50%; 
+}
+
