@@ -2,7 +2,7 @@ body{
   background-color: #edf1ff;
 }
   .dot_line {
-   position:absolute;
+   position:relative;
   top:0px;
   height:125vh;
   left:5%;
@@ -15,7 +15,7 @@ body{
 }
 
   .dot_line2 {
-  position:absolute;
+  position:relative;
   top:0px;
   height:125vh;
   left:95%;
