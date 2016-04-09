@@ -74,6 +74,9 @@ of those sections to manage the look and feel of the site. */
     background-repeat: no-repeat;
 }
 
+.btn.btn-default.page-scroll.info{
+	left: 3000px;
+}
 
 
 #page1{
