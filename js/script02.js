@@ -1,12 +1,12 @@
 var Width = 500;
-var Height = 500;
+var Height = 400;
 var BarElement;
 var dataSet =  [[516347, 349838], [553366, 352011], [588527, 330000]];
 var barWidth = 80;
 var barMargin = 50;
 var offsetX = 30;
 var offsetY = 20;
-var dataMax = 500;
+var dataMax = 400;
 
 BarElement = d3.select("#graph02")
 			   .selectAll("rect")
@@ -53,7 +53,7 @@ BarElement.enter()
 				return i * (barWidth + barMargin) + offsetX + 50;
 			})
 			.attr("y", function(d, i){
-				return Height - (yScale(d[0]) - 100) - 5 - offsetY
+				return Height - (yScale(d[0]) - 100) - 15 - offsetY
 			})
 			.text(function(d, i){
 				var temp = parseInt(d[1]/d[0] * 100)
@@ -66,10 +66,10 @@ BarElement.enter()
 				return i * (barWidth + barMargin) + offsetX + 50;
 			})
 			.attr("y", function(d, i){
-				return Height - (yScale(d[1]) - 160) -  offsetY
+				return Height - (yScale(d[0]) - 155) - offsetY;
 			})
 			.text(function(d, i){
-				return d[1];
+				return d[0]-d[1];
 			})
 
 			BarElement.enter()
