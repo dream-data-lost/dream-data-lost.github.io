@@ -18,6 +18,89 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="js/ie-emulation-modes-warning.js"></script>
+    <style type="text/css">
+            #graph01{ 
+                  margin-top: 230px;
+                  margin-right: 780px;
+                  width : 500px;
+                  height : 500px;
+             }
+            #graph02{ 
+                  margin-top: 210px;
+                  margin-left: 900px;
+                  width : 500px;
+                  height : 500px;
+             }
+            .bar01 { 
+                fill : #247ba0;
+             }
+             .bar02 {
+                fill : #ff1654;
+             }
+             .barNum01 {
+                font-family: -윤고딕330;
+                fill : gray;
+                font-size : 20pt;
+                text-anchor : middle;
+             }
+             .barNum02 {
+                font-family: -윤고딕330;
+                fill : white;
+                font-size : 15pt;
+                text-anchor : middle;
+             }
+             .axis text {
+                font-family : sans-serif;
+                font-size : 11px;
+             }
+             .axis path,
+             .axis line {
+                fill : none;
+                stroke : black;
+             }
+             .axis_x line{
+                fill : none;
+                stroke : black;
+             }
+             .barName {
+                font-family: -윤고딕340;
+                fill : gray;
+                font-size: 15pt;
+                text-anchor : middle;
+             }
+             .mark {
+                fill : orange;
+                stroke : none;
+             }
+             .line {
+                stroke : orange;
+                fill : none;
+                stroke-width : 2px;
+             }
+             .legend {
+                font-family: -윤고딕340;
+                fill : gray;
+
+             }
+             .grid {
+                stroke : rgba(125, 125, 125, 0.2);
+                stroke-dasharray : 4, 2;
+                shape-rendering : crispEdges;
+             }
+             .tooltip {                                                        
+                background: #eee;                                              
+                box-shadow: 0 0 5px #999999;                                   
+                color: #333;                                                   
+                visibility: hidden;                                                 
+                font-size: 12px;                                                                                                 
+                padding: 10px;                                                                                             
+                text-align: center;                                                                                                
+                width: 80px;                                                   
+                z-index: 10;
+                position: absolute;                                                   
+             }
+        </style>
+    <script src="http://d3js.org/d3.v3.js"> </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -84,19 +167,22 @@
             </div>
         </div>
     </section>
-	
+
 	<section id="page3" class="page">
-        <div class="container">
+        <svg id = "graph01"></svg>
+            <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     
                     <a class="btn btn-default page-scroll" href="#page4">Next</a>
                 </div>
             </div>
-        </div>
+        </div>        
     </section>
+    <script src = "js/script01.js"></script>
 	
     <section id="page4" class="page">
+        <svg id = "graph02"></svg>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -106,7 +192,8 @@
             </div>
         </div>
     </section>
-	
+	<script src = "js/script02.js"></script>
+
 	<section id="page5" class="page">
         <div class="container">
             <div class="row">
