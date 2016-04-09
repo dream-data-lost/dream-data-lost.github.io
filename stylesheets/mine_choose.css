@@ -1,45 +1,9 @@
 body{
-  background-color: #edf1ff;
+  background: #edf1ff url(../image/dot_line.png) no-repeat fixed center center;
+  background-size: contain;
 }
 
-  #dot_line{
-    background: url(../image/dot_line.png);
-  background-repeat : no-repeat; 
-  background-attachment : fixed; 
-  }
-  .dot_line {
-   position: absolute;
-  top:0px;
-  height:125vh;
-  left:5%;
-  -ms-transform: translateX(-50%); /* IE 9 */
-  -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
-  -o-transfrom: translateX(-50%);
-  transform : translateX(-50%);
-  
-  background-color: red;
-    width:100px;
-    height:100px;
-  background: url(../image/dot_line.png);
-  background-repeat : no-repeat; 
-  background-attachment : fixed; 
-}
-
-  .dot_line2 {
-  position: absolute;
-  top:0px;
-  height:125vh;
-  left:95%;
-  -ms-transform: translateX(-50%); /* IE 9 */
-  -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
-  -o-transfrom: translateX(-50%);
-  transform : translateX(-50%);
-  
-  background: url(../image/dot_line.png);
-  background-repeat : no-repeat; 
-  background-attachment : fixed; 
-}
-
+ 
 
 
 
