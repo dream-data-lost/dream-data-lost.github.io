@@ -2,14 +2,12 @@ body{
   background-color: #edf1ff;
   
   .dot_line {
-  position:absolute;
-  top:0px;
-  height:125vh;
-  left:10%;
-  -ms-transform: translateX(-50%); /* IE 9 */
-  -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
-  -o-transfrom: translateX(-50%);
-  transform : translateX(-50%);
+  background-repeat : no-repeat; 
+  background-attachment : fixed; 
+  background-position : 50% 50%;   
+    
+    
+ 
 }
 
   .dot_line2 {
