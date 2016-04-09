@@ -12,7 +12,8 @@ body{
   transform : translateX(-50%);
   
   background-color: red;
-    
+    width:100px;
+    height:100px;
   background: url(../image/dot_line.png);
   background-repeat : no-repeat; 
   background-attachment : fixed; 
