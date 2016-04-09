@@ -47,28 +47,28 @@ body{
 }
 
 .intro-section{
-  padding-top: 100px !important;
+  padding-top: 200px !important;
   background: #edf1ff url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
 
 .about-section{
 
-  padding-top: 100px !important;
+  padding-top: 200px !important;
   background: #edf1ff url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
 
 .services-section{
 
-  padding-top: 50px !important;
+  padding-top: 200px !important;
   background: #edf1ff url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
 
 .contact-section{
 	
-	padding-top: 100px !important;
+	padding-top: 200px !important;
 	background: #0a0073 url(../image/choose_background.png)  no-repeat  fixed center center;
   	background-size: contain;
 }
