@@ -3,6 +3,13 @@
     margin: 0 auto;
 }
 
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 @font-face {
   font-family: 'Jeju Gothic';
   font-style: normal;
