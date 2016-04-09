@@ -76,17 +76,75 @@ of those sections to manage the look and feel of the site. */
 
 .btn.btn-default.page-scroll.info{
 	
-		
+	font-family: 'Noto Sans', sans-serif; 
+	font-weight: bold !important;
+	font-size: 13px !important;
+	color:#FFF;
+	position:relative;
 	
-	 position:absolute;
-  top:90%;
+	text-decoration:none;
+	margin:30px 0px 0px 0px;
+	border-radius:7px;
+	border:solid 1px #1639be;
+	background:#00219c;
+	text-align:center;
+	width: 150px;
+	padding:10px 5px !important;
+	
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+	-webkit-box-shadow: 0px 6px 0px #0a0073;
+        -moz-box-shadow: 0px 6px 0px #0a0073;
+        box-shadow: 0px 6px 0px #0a0073;		
+
+}
+
+.btn.btn-default.page-scroll.info:active{
+	-webkit-box-shadow: 0px 2px 0px #0a0073;
+        -moz-box-shadow: 0px 2px 0px #0a0073;
+        box-shadow: 0px 2px 0px #0a0073;
+        position:relative;
+        top: 5px;
+}
+
+
+#go_11_button{
+	position:absolute;
+	 top:90%;
   
-  left:90%;
+  	left:90%;
   -ms-transform: translateX(-50%); /* IE 9 */
   -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
   -o-transfrom: translateX(-50%);
-  transform : translateX(-50%);
+  transform : translateX(-50%);	
 }
+
+#go_next_button{
+position:absolute;
+	 top:80%;
+  
+  	left:90%;
+  -ms-transform: translateX(-50%); /* IE 9 */
+  -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
+  -o-transfrom: translateX(-50%);
+  transform : translateX(-50%);		
+}
+
+#go_choose_button{
+position:absolute;
+	 top:70%;
+  
+  	left:90%;
+  -ms-transform: translateX(-50%); /* IE 9 */
+  -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
+  -o-transfrom: translateX(-50%);
+  transform : translateX(-50%);		
+}
+
+
+
 
 
 #page1{
