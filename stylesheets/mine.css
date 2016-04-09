@@ -136,8 +136,8 @@ body{
 	border:solid 1px #1639be;
 	background:#00219c;
 	text-align:center;
-	
-	padding:10px 20px !important;
+	width: 150px;
+	padding:10px 20px;
 	
 	-webkit-transition: all 0.1s;
 	-moz-transition: all 0.1s;
