@@ -28,17 +28,16 @@ body{
 
 .intro-section{
   background: url(../image/choose_background.png) no-repeat fixed center center;
-  padding: 20px;
-  
+  background-size:80%;
 }
 
 .about-section{
   background: url(../image/choose_background.png) no-repeat fixed center center;
-  padding: 20px;
+
 }
 
 .services-section{
   background: url(../image/choose_background.png) no-repeat fixed center center;
-  padding: 20px;
+ 
 }
 
