@@ -40,9 +40,7 @@ body{
 }
 
 @media only screen and (min-width: 220px) {
-	.card{
-		width:45%;
-	}
+
 }
 
 /* 모바일 (가로 480px 미만) 용 스타일 */
@@ -56,9 +54,6 @@ body{
   	font-size:30pt;
   	
   }
-  .card{
-		width:45%;
-	}
  
 }
 @media only screen and (min-width: 600px) {
@@ -70,9 +65,7 @@ body{
   	font-size:40pt;
   	
   }  
-.card{
-		width:45%;
-	}	
+	
 }
 @media only screen and (min-width: 768px) {
   /* 768px 이상 */
@@ -137,7 +130,7 @@ body{
 	color:#FFF;
 	
 	position:relative;
-	width:100px;
+
 	display:block;
 	text-decoration:none;
 	
@@ -146,7 +139,7 @@ body{
 	border:solid 1px #1639be;
 	background:#00219c;
 	text-align:center;
-	padding:5px 10px;
+	padding:10px 20px;
 	
 	-webkit-transition: all 0.1s;
 	-moz-transition: all 0.1s;
