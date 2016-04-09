@@ -5,8 +5,8 @@ body{
 
 @media only screen and (min-width: 320px) {
   body{
-    background: #edf1ff url(../image/dot_line.png) repeat-y fixed center center;
-    background-size: 400px;
+    background: #edf1ff url(../image/dot_line_small.png) no-repeat fixed center center;
+   
             
   }
   
@@ -14,15 +14,14 @@ body{
 
 @media only screen and (min-width: 480px) {
   body{
-    background: #edf1ff url(../image/dot_line.png) repeat-y fixed center center;
-   
+    background: #edf1ff url(../image/dot_line_small.png) no-repeat fixed center center;
             
   }
   
 }
 @media only screen and (min-width: 768px) {
   body{
-    background: #edf1ff url(../image/dot_line.png) no-repeat fixed center center;
+    background: #edf1ff url(../image/dot_line.png) no-repeat  fixed center center;
     
             
   }
