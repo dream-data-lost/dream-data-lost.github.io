@@ -75,9 +75,15 @@ of those sections to manage the look and feel of the site. */
 }
 
 .btn.btn-default.page-scroll.info{
-	position: absolute;
-	left: 1000px;
-	top: 100px;
+	
+	 position:absolute;
+  top:90%;
+  height:125vh;
+  left:90%;
+  -ms-transform: translateX(-50%); /* IE 9 */
+  -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
+  -o-transfrom: translateX(-50%);
+  transform : translateX(-50%);
 }
 
 
