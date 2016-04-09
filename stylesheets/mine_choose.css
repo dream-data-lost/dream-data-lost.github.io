@@ -25,6 +25,20 @@ body{
   transform : translateX(-50%);
 }
 
+  .dot_line3 {
+   position:relative;
+  top:0px;
+  height:125vh;
+  left:5%;
+  -ms-transform: translateX(-50%); /* IE 9 */
+  -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
+  -o-transfrom: translateX(-50%);
+  transform : translateX(-50%);
+    
+ 
+}
+
+
 
 .intro-section{
   background: url(../image/choose_background.png) no-repeat fixed center center;
