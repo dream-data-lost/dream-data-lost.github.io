@@ -1,6 +1,12 @@
 body{
   background-color: #edf1ff;
 }
+
+  #dot_line{
+    background: url(../image/dot_line.png);
+  background-repeat : no-repeat; 
+  background-attachment : fixed; 
+  }
   .dot_line {
    position: absolute;
   top:0px;
