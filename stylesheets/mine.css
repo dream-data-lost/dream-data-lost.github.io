@@ -40,10 +40,9 @@ body{
 }
 
 @media only screen and (min-width: 220px) {
-	.card{
-  	width:45%;
-  	
-  }
+  .card{
+  	width:45% !important;
+    }
 }
 
 /* 모바일 (가로 480px 미만) 용 스타일 */
@@ -59,8 +58,7 @@ body{
   }
   
   .card{
-  	width:45%;
-  	
+  	width:45% !important;
   }
 }
 @media only screen and (min-width: 600px) {
@@ -73,7 +71,7 @@ body{
   	
   }  
 .card{
-  	width:45%;
+  	width:45% !important;
   	
   }	
 }
