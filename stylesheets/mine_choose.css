@@ -1,11 +1,11 @@
 body{
-  background: #edf1ff url(../image/dot_line.png) no-repeat fixed center center;
+  background: #edf1ff url(../image/dot_line.png)  fixed center center;
   
 }
 
 @media only screen and (min-width: 480px) {
   body{
-    background: #edf1ff url(../image/dot_line.png) no-repeat fixed center center;
+    background: #edf1ff url(../image/dot_line.png) fixed center center;
     background-size: contain;
             
   }
