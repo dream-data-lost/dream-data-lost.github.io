@@ -1,5 +1,9 @@
 body{
-  background-color: #edf1ff;
+
+  background: #edf1ff url(../image/dot_line.png);
+  background-repeat : no-repeat; 
+  background-attachment : fixed; 
+  background-position : left center; 
 }
   .dot_line {
    position: absolute;
