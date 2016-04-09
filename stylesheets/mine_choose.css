@@ -37,24 +37,28 @@ body{
 }
 
 .intro-section{
+	 margin: 0 auto;
   padding-top: 100px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
 
 .about-section{
+	 margin: 0 auto;
   padding-top: 100px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
 
 .services-section{
+	 margin: 0 auto;
   padding-top: 50px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
 
 .contact-section{
+	 margin: 0 auto;
 	padding-top: 100px !important;
 	background: #0a0073 url(../image/choose_background.png)  no-repeat  fixed center center;
   	background-size: contain;
