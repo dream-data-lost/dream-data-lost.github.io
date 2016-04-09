@@ -40,7 +40,15 @@ body{
 }
 
 @media only screen and (min-width: 220px) {
-
+.card_front, 
+.card_back,
+.situation_result,
+.content_result,
+.weekday,
+.season,
+.temprature{
+	margin:0 auto;
+}
 }
 
 /* 모바일 (가로 480px 미만) 용 스타일 */
@@ -54,7 +62,15 @@ body{
   	font-size:30pt;
   	
   }
- 
+ .card_front, 
+.card_back,
+.situation_result,
+.content_result,
+.weekday,
+.season,
+.temprature{
+	margin:0 auto;
+}
 }
 @media only screen and (min-width: 600px) {
   /* 600px 이상 */
@@ -65,7 +81,15 @@ body{
   	font-size:40pt;
   	
   }  
-	
+.card_front, 
+.card_back,
+.situation_result,
+.content_result,
+.weekday,
+.season,
+.temprature{
+	margin:0 auto;
+}	
 }
 @media only screen and (min-width: 768px) {
   /* 768px 이상 */
@@ -82,7 +106,15 @@ body{
     	font-size: 10pt;
       }
 }
-@media only screen and (min-width: 992px) {
+@m.card_front, 
+.card_back,
+.situation_result,
+.content_result,
+.weekday,
+.season,
+.temprature{
+	margin:0 auto;
+}edia only screen and (min-width: 992px) {
   /* 992px 이상 */
    #page-top1{
    
