@@ -160,7 +160,7 @@ body{
 .card{
 	position: relative;
 	float: left;
-	
+	padding-bottom:35%;
 	width: 25% 
 
 }
