@@ -1,9 +1,5 @@
 body{
-  background: #edf1ff url(../image/dot_line.png);
-  background-repeat : no-repeat; 
-  background-attachment : fixed; 
-  background-position : left center; 
-  margin-left:20px;
+  background-color: #edf1ff;
 }
   .dot_line {
    position: absolute;
@@ -15,7 +11,9 @@ body{
   -o-transfrom: translateX(-50%);
   transform : translateX(-50%);
     
- 
+  background: url(../image/dot_line.png);
+  background-repeat : no-repeat; 
+  background-attachment : fixed; 
 }
 
   .dot_line2 {
@@ -27,6 +25,10 @@ body{
   -webkit-transform: translateX(-50%);/* Chrome, Safari, Opera */
   -o-transfrom: translateX(-50%);
   transform : translateX(-50%);
+  
+  background: url(../image/dot_line.png);
+  background-repeat : no-repeat; 
+  background-attachment : fixed; 
 }
 
 
