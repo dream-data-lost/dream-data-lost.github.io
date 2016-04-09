@@ -75,5 +75,5 @@ of those sections to manage the look and feel of the site. */
 }
 
 #page1{
-	background-image: url("slide1.png");
+	background-image: url("../slide1.png");
 }
