@@ -125,6 +125,8 @@ body{
 }
 
 #start_button{
+	clear:both;
+	
 	font-family: 'Noto Sans', sans-serif; 
 	font-weight: bold !important;
 	font-size: 13px !important;
@@ -158,6 +160,8 @@ body{
 }
 
 #result_button{
+	
+	
 	font-family: 'Noto Sans', sans-serif; 
 	font-weight: bold !important;
 	font-size: 13px !important;
