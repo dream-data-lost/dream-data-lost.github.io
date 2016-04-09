@@ -3,8 +3,15 @@ body{
   overflow:hidden;
 }
 
-.choose_each_sub_title{
-  font-family: 'Noto Sans', sans-serif; 
+#day{
+  font-family: 'Jeju Gothic'; 
+  color:#0a0073;
+  text-shadow: 1px 1px 2px #757575;
+  font-size: 15pt;
+}
+
+.choose_each_main_title{
+  font-family: 'Jeju Gothic'; 
   color:#0a0073;
   text-shadow: 1px 1px 2px #757575;
   font-size: 15pt;
