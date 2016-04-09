@@ -6,12 +6,18 @@ body{
 @media only screen and (min-width: 480px) {
   body{
     background: #edf1ff url(../image/dot_line.png) repeat-y fixed center center;
-    background-size: 500px;
+    background-size: 300px;
             
   }
   
 }
-
+@media only screen and (min-width: 768px) {
+  body{
+    background: #edf1ff url(../image/dot_line.png) no-repeat fixed center center;
+    background-size:100%;
+            
+  }
+}
 
 
 .intro-section{
