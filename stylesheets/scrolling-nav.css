@@ -75,8 +75,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .btn.btn-default.page-scroll.down{
-	right: 10px;
-	bottom: 10px;
+	right: 100px;
+	bottom: 100px;
 }
 
 #page1{
