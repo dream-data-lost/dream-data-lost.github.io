@@ -125,7 +125,6 @@ body{
 }
 
 #start_button{
-	clear:both;
 	
 	font-family: 'Noto Sans', sans-serif; 
 	font-weight: bold !important;
@@ -176,7 +175,7 @@ body{
 	background:#b2a1ff;
 	
 	text-align:center;
-	width: 150px;
+	width: 120px;
 	padding:10px 5px !important;
 	
 	-webkit-transition: all 0.1s;
