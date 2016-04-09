@@ -3,6 +3,18 @@ body{
   overflow:hidden;
  
 }
+.row{
+	margin: 0 auto !important;
+}
+
+.container{
+	margin: 0 auto !important;
+}
+
+#destiny_box1{
+	position: relative;
+	margin: 0 auto !important;
+}
 
 #day{
   font-family: 'Jeju Gothic'; 
