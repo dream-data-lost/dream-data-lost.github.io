@@ -196,7 +196,7 @@ body{
 }
 
 .card{
-	padding-bottom:35%;
+	
  -	width: 100% 
 	position: relative;
 	
@@ -210,7 +210,7 @@ body{
 .weekday,
 .season,
 .temprature{
-	
+	margin-left: 40px;
 	margin:0 auto;
 	top: 0;
 	left: 0;
