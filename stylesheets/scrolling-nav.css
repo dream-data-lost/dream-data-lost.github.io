@@ -54,14 +54,14 @@ of those sections to manage the look and feel of the site. */
 }
 
 .services-section {
-    height: 130%;
+    height: 100%;
     padding-top: 30px;
     text-align: center;
     
 }
 
 .contact-section {
-    height: 150%;
+    height: 100%;
     padding-top: 100px;
     text-align: center;
     
