@@ -9,6 +9,9 @@
   margin-right: auto;
 }
 
+.col-lg-12{
+	.center-block();
+}
 
 @font-face {
   font-family: 'Jeju Gothic';
