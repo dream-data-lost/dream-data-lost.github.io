@@ -205,13 +205,19 @@ clickListener2(btn_result);
 			else if(result_cards[1].style.backgroundImage == "url(\"" + contentUrl[6] + "\")")    last_score = last_score + 35;
 			else  last_score = last_score;
 			
-			if((last_score >= 30)&&(last_score<=38)){last_score="그대여~ 아무 걱정하지 말아요 당신의 오늘의 분실 운명은 잔잔한 호수와도 같습니다. 그대의 무의식이 그대에게 넌지시 알려줄거에요.  매우 안전하니 안심하세요";}
-			else if((last_score >= 39)&&(last_score<=47)){last_score="어머, 분실을 걱정하고 계신 당신! 당신의 분실 운명은 잔잔한 호수에 돌 하나 던져진 정도~? 그렇지만 너무 마음을 놓고 긴장하지 않으면  자신도 모르게 돌이 바위가 되어 돌아올거에요.";}
-			else if((last_score >= 48)&&(last_score<=56)){last_score="웁~스! 대체적으로 안전하지만 먹구름이 서서히 다가오고있어요. 잠깐 한눈을 팔면 언제 당신의 물건을 털어갈지도 몰라요";}
-			else if((last_score >= 57)&&(last_score<=65)){last_score="what the hell!! 상황이나 환경이 변하기 쉬울 때입니다. 정신줄을 놓지 마세요 화목했던 나날이 갑작스런 파국을 맞이하게 될 수 도 있습니다. 긴장감 조절이 중요합니다.";}
-			else if((last_score >= 66)&&(last_score<=74)){last_score="끄아아악 어두운 밤에 무엇을 떨어뜨리는지도 모른채 걸어가게 됩니다. 낮의 햇빛이 점점 약해져 가는 상황입니다. 늘 Be careful! 잊지마세요.";}
-			else if((last_score >= 75)&&(last_score<=83)){last_score="띠-로리 마음의 준비가 단단히 필요합니다. 당신의 분실 운명은 휘몰아치는 소용돌이 안에 있습니다. 매우 위험합니다. Danger! Danger! Danger!";}
-			else if((last_score >= 84)&&(last_score<=92)){last_score="인생사 새옹지마 해탈의 시간입니다. 이미 잃어버릴 것. 고민해도 소용없습니다. 옛 것이 떠나가야 새로운 것을 맞이하는 기쁨을 얻을 수 있어요! 그냥...놓으세요.";}
+			if((last_score >= 30)&&(last_score<=38)){last_score="그대여~ 아무 걱정하지 말아요 당신의 오늘의 분실 운명은 잔잔한 호수와도 같습니다. 그대의 무의식이 그대에게 넌지시 알려줄거에요.  매우 안전하니 안심하세요";
+			document.getElementById("level").innerHTML = "Your Level: 1";}
+			else if((last_score >= 39)&&(last_score<=47)){last_score="어머, 분실을 걱정하고 계신 당신! 당신의 분실 운명은 잔잔한 호수에 돌 하나 던져진 정도~? 그렇지만 너무 마음을 놓고 긴장하지 않으면  자신도 모르게 돌이 바위가 되어 돌아올거에요.";
+			document.getElementById("level").innerHTML = "Your Level: 2";}
+			else if((last_score >= 48)&&(last_score<=56)){last_score="웁~스! 대체적으로 안전하지만 먹구름이 서서히 다가오고있어요. 잠깐 한눈을 팔면 언제 당신의 물건을 털어갈지도 몰라요";
+			document.getElementById("level").innerHTML = "Your Level: 3";}
+			else if((last_score >= 57)&&(last_score<=65)){last_score="what the hell!! 상황이나 환경이 변하기 쉬울 때입니다. 정신줄을 놓지 마세요 화목했던 나날이 갑작스런 파국을 맞이하게 될 수 도 있습니다. 긴장감 조절이 중요합니다.";
+			document.getElementById("level").innerHTML = "Your Level: 4";}
+			else if((last_score >= 66)&&(last_score<=74)){last_score="끄아아악 어두운 밤에 무엇을 떨어뜨리는지도 모른채 걸어가게 됩니다. 낮의 햇빛이 점점 약해져 가는 상황입니다. 늘 Be careful! 잊지마세요.";
+			document.getElementById("level").innerHTML = "Your Level: 5";}
+			else if((last_score >= 75)&&(last_score<=83)){last_score="띠-로리 마음의 준비가 단단히 필요합니다. 당신의 분실 운명은 휘몰아치는 소용돌이 안에 있습니다. 매우 위험합니다. Danger! Danger! Danger!";
+			document.getElementById("level").innerHTML = "Your Level: 6";}
+			else if((last_score >= 84)&&(last_score<=92)){last_score="인생사 새옹지마 해탈의 시간입니다. 이미 잃어버릴 것. 고민해도 소용없습니다. 옛 것이 떠나가야 새로운 것을 맞이하는 기쁨을 얻을 수 있어요! 그냥...놓으세요.";document.getElementById("level").innerHTML = "Your Level: 7";}
 			else {last_score="이럴리가 없어요. 이게 바로 오류라는거야...";}
 
 			document.getElementById("score").innerHTML = last_score;
@@ -226,4 +232,3 @@ var temprature = document.querySelectorAll(".temprature");
 temprature[0].style.backgroundImage = "url(good.png)";
 temprature[1].style.backgroundImage = "url(good.png)";
 
-//최종 점수 미리보기
