@@ -56,6 +56,6 @@ body{
 
 .contact-section{
 	padding-top: 100px !important;
-	background: #0a0073 url(../image/dot_line.png) no-repeat  fixed center center;
+	background: #0a0073 url(../image/choose_background.png)  no-repeat  fixed center center;
   	background-size: contain;
 }
