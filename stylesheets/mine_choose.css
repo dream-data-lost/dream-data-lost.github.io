@@ -11,6 +11,7 @@ body{
 }
 
 .about-section{
+  padding-top: 150px !important;
   background: url(../image/choose_background.png) no-repeat fixed center center;
   background-size: contain;
 }
