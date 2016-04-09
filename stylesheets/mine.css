@@ -130,10 +130,10 @@ body{
 	font-size: 13px !important;
 	color:#FFF;
 	position:relative;
-	display:block;
+	
 	text-decoration:none;
 	margin:0 auto;
-	border-radius:5px;
+	border-radius:7px;
 	border:solid 1px #1639be;
 	background:#00219c;
 	text-align:center;
