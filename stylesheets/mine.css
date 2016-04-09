@@ -196,6 +196,8 @@ body{
 }
 
 .card{
+	padding-bottom:35%;
+ -	width: 100% 
 	position: relative;
 	float: left;
 	background-size: cover;
