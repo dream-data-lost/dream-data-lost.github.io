@@ -39,7 +39,12 @@ body{
    background-color:#b3d2ff;
 }
 
-
+@media only screen and (min-width: 220px) {
+	.card{
+  	width:45%;
+  	
+  }
+}
 
 /* 모바일 (가로 480px 미만) 용 스타일 */
 @media only screen and (min-width: 480px) {
@@ -52,6 +57,11 @@ body{
   	font-size:30pt;
   	
   }
+  
+  .card{
+  	width:45%;
+  	
+  }
 }
 @media only screen and (min-width: 600px) {
   /* 600px 이상 */
@@ -62,7 +72,10 @@ body{
   	font-size:40pt;
   	
   }  
-	
+.card{
+  	width:45%;
+  	
+  }	
 }
 @media only screen and (min-width: 768px) {
   /* 768px 이상 */
@@ -160,8 +173,7 @@ body{
 	float: left;
 	padding-bottom: 35%;
 	width: 25%;
-	margin-bottom: 10px;
-	margin-left: 5px;
+
 }
 
 .card_front, 
