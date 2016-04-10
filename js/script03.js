@@ -13,7 +13,7 @@ var dataSet =  [
 					{ label : "의류" , count : 3337}
 				];
 var radius = Math.min(Width, Height) / 2;
-var color = d3.scale.category20b();
+var color = /*d3.scale.category10();*/["#f5f3bd", "#02c39a", "#00a896", "#96d2d3", "#7be2ff", "#00ccdc", "#05668d"];
 var pie = d3.layout.pie()
 			.value(function(d){
 				return d.count;
@@ -72,7 +72,8 @@ var arcs = svg.selectAll("g.arc")
 
 			arcs.append("path")
 				.attr("fill", function(d, i){
-					return color(i);
+					var color = /*d3.scale.category10();*/["#f5f3bd", "#02c39a", "#00a896", "#96d2d3", "#7be2ff", "#00ccdc", "#05668d"];
+					return color[i];
 				})
 				.attr("d", arc);
 			/*arcs.append("text")
@@ -86,10 +87,10 @@ var arcs = svg.selectAll("g.arc")
 
 var tooltip = d3.select("#graph03")
 				.append("div")
-				.attr("class", "tooltip");
+				.attr("class", "tooltip2");
 
 			tooltip.append("div")
-				.attr("class", "label");
+				.attr("class", "label2");
 
 			tooltip.append("div")
 				.attr("class", "count");
@@ -103,12 +104,10 @@ var tooltip = d3.select("#graph03")
 				var percent = Math.round(1000 * d.data.count / total) / 10;
 				var x = arc.centroid(d)[0];
 				var y = arc.centroid(d)[1];
-				tooltip.select(".label").html(d.data.label);
-				tooltip.select(".count").html(d.data.count);
+				tooltip.select(".label2").html(d.data.label);
+				tooltip.select(".count").html(d.data.count + "건");
 				tooltip.select(".percent").html(percent + "%");
-				tooltip.style("visibility", "visible")
-						.style("left", + 200 + offsetX + x + "px")
-						.style("top", 1700 + y + "px");
+				tooltip.style("visibility", "visible");
 			});
 
 			arcs.on("mouseout", function(){
@@ -118,7 +117,7 @@ var tooltip = d3.select("#graph03")
 			
 var legend = svg.append("g")
 				.attr("class", "legend")
-				.attr("transform", "translate(" + (Width - 100 )+ "," + 20 +")")
+				.attr("transform", "translate(" + (Width - 100 )+ "," + 40 +")")
 				.selectAll("g")
 				.data(["지갑", "휴대폰", "가방", "전자기기", "귀금속", "카드", "의류"])
 				.enter()
@@ -126,18 +125,19 @@ var legend = svg.append("g")
 
 			legend.append("circle")
 				.attr("cy", function(d, i){
-					return i * 30;
+					return i * 50;
 				})
-				.attr("r", 5)
+				.attr("r", 10)
 				.attr("fill", function(d, i){
-					return color(i);
+					var color = /*d3.scale.category10();*/["#f5f3bd", "#02c39a", "#00a896", "#96d2d3", "#7be2ff", "#00ccdc", "#05668d"];
+					return color[i];
 				});
 
 			legend.append("text")
 				.attr("y", function(d, i){
-					return i * 30 + 5;
+					return i * 50 + 5;
 				})
-				.attr("x", 10)
+				.attr("x", 20)
 				.text(function(d){
 					return d;
 				});
