@@ -4,8 +4,8 @@ var PieElement;
 var offsetX = 30;
 var offsetY = 20;
 var dataSet =  [
-					{ label : "지갑" , count : 208115},
-					{ label : "휴대폰" , count : 186080},
+					{ label : "휴대폰" , count : 208115},
+					{ label : "지갑" , count : 186080},
 					{ label : "가방" , count : 41948},
 					{ label : "전자기기" , count : 6499},
 					{ label : "귀금속" , count : 4741},
@@ -119,7 +119,7 @@ var legend = svg.append("g")
 				.attr("class", "legend")
 				.attr("transform", "translate(" + (Width - 100 )+ "," + 40 +")")
 				.selectAll("g")
-				.data(["지갑", "휴대폰", "가방", "전자기기", "귀금속", "카드", "의류"])
+				.data(["휴대폰", "지갑", "가방", "전자기기", "귀금속", "카드", "의류"])
 				.enter()
 				.append("g");
 
