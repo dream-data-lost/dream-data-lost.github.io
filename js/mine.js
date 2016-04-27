@@ -15,7 +15,7 @@ document.getElementById("day").innerHTML = year + '년 ' + month + '월 ' + day 
 
 //요일 사진 자동 지정
 var weekdayimg = document.querySelectorAll(".weekday");
-var weekdayUrl = ["sunday.png", "monday.png", "tuesday.png", "wednessday.png", "thursday.png", "friday.png", "saturday.png"];
+var weekdayUrl = ["sunday.png", "monday.png", "tuesday.png", "wednesday.png", "thursday.png", "friday.png", "saturday.png"];
 
 
 if(weekday >= 0 && weekday <= 6) {
